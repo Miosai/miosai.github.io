@@ -1,0 +1,74 @@
+body{
+  background-size: cover;
+  background-image: url('https://i.pinimg.com/originals/09/a7/ce/09a7ce2f06e886c397450145d610b4d7.gif') ;
+   background-size: cover;
+  
+}
+.tudo {
+     background-color: none;
+     text-align: center;
+      
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     font-family: 'Roboto', sans-serif;
+    /* Isso define a altura para ocupar toda a altura da janela do navegador */
+}
+ .avatar {
+     width: 100px;
+     margin: 0 auto;
+     z-index: 22;
+     border-radius: 10px;
+}
+ .corpo {
+   border-radius: 10px;
+     background-color: #ccc;
+     width: 300px;
+     margin: -60px auto 0 auto;
+    /* Adicionei uma margem superior para separar o corpo do avatar */
+     padding: 10px;
+    /* Adicionei um espaçamento interno para melhor aparência */
+     text-align: justify;
+   font-size: 16px;
+}
+ h1 {
+     text-align: center;
+     padding-top: 40px;
+}
+         .container {
+            display: flex;
+            justify-content: center;
+           flex-wrap: wrap;
+        }
+
+        .botao {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          min-width: 130px;
+          display: flex;
+          justify-content: center;
+        }
+.botao:hover {
+  background-color: #701717; /* Cor de fundo diferente quando o mouse estiver sobre o botão */
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none; /* Remover a decoração de texto */
+  text-align: center; /* Alinhar o texto centralmente */
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
