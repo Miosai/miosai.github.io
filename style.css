@@ -24,7 +24,7 @@ body{
 }
  .corpo {
    border-radius: 10px;
-     background-color: #ccc;
+     background-color: #red;
      width: 300px;
      margin: -60px auto 0 auto;
     /* Adicionei uma margem superior para separar o corpo do avatar */
